@@ -3,6 +3,7 @@
 
 BluetoothSerial ESP_BT; // Cria um objeto para o Bluetooth
 
+
 void setup() {
   pinMode(2, OUTPUT); // Configura a GPIO2 como saída
   digitalWrite(2, LOW); // Inicializa a GPIO2 como desligada
